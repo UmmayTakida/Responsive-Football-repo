@@ -142,13 +142,38 @@ footer{
     margin-right: auto;
 }
 .footer-container{
-    margin-top: 170px;
+    margin-top: 100px;
     width: 484px;
     height: 213px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.sponser-container{
+    margin-top: 170px;
+    height: 300px;
+    background-color: cadetblue;
+}
+.sponser-container h2{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.sponsers{
+    display: flex;
+}
+
+.sponsers img{
+    width:150px;
+    height: 150px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.sponsers img:hover{
+    transform: rotate(-180deg);
+    transition: transform 1s ease-in-out;
+
 }
 footer img{
     width: 484px;
@@ -157,3 +182,4 @@ footer img{
 footer a{
     padding: 5px;
 }
+ /* media Query */

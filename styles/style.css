@@ -87,26 +87,23 @@
 .video-container{
     width: 1050px;
     margin-left: 170px;
-    background-color: white;
-    border: 2px solid oldlace;
-    margin-top: 40px;
-
+    margin-top: 60px;
+    border: 2px solid skyblue;
 }
 
 .video-container h1{
     font-size: 40px;
-    color: rgb(240, 170, 39);
     
 }
 .video-container h1:hover{
-    background-color: orange;
+    background-color: skyblue;
     font-size:50px;
-    color: wheat;
+    color: blue;
 }
 
 .highlights{
     display: flex;
-    border: 5px solid hsl(39, 77%, 83%);
+    border: 2px solid skyblue;
     border-radius: 3px;
 }
 
@@ -134,11 +131,12 @@ margin-left: 15px;
 }
 /* footer styles  */
 footer{
-
+    
     margin-left: auto;
     margin-right: auto;
 }
 .footer-container{
+    margin-top: 170px;
     width: 484px;
     height: 213px;
     display: flex;

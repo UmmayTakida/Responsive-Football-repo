@@ -83,7 +83,7 @@
 }
 /* footer styles  */
 footer{
-    margin-top: 50px;
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -98,4 +98,47 @@ footer{
 footer img{
     width: 484px;
     height: 110px;
+}
+/* -----------------highlights styles------------- */
+.video-container{
+    width: 1050px;
+    margin-left: 170px;
+    background-color: white;
+    border: 2px solid oldlace;
+    margin-top: 40px;
+
+}
+
+.video-container h1{
+    font-size: 40px;
+    color: rgb(240, 170, 39);
+    
+}
+
+.highlights{
+    display: flex;
+    border: 5px solid hsl(39, 77%, 83%);
+    border-radius: 3px;
+}
+
+.video iframe{
+border-radius: 10px; 
+margin-left: 15px;
+}
+.highlights-title{
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.highlights-title h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.highlights-title h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.author span{
+    font-size: 16px;
+    font-weight: 400;
+    color:burlywood
 }

@@ -88,11 +88,15 @@
     width: 1050px;
     margin-left: 170px;
     margin-top: 60px;
-    border: 2px solid skyblue;
+    background-color:rgba(0, 0, 255, 0.041);
+
+
+
 }
 
 .video-container h1{
     font-size: 40px;
+    padding: 20px;
     
 }
 .video-container h1:hover{
